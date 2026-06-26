@@ -33,7 +33,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     const formData = new FormData(this);
     
     // لینک وب‌اپ گوگل اسکریپت خود را به جای متن زیر بگذارید
-    const googleAppScriptURL = 'https://script.google.com/macros/s/AKfycbxKEcFcUkXYVQK2BMD24aSihgtkleY48v7CNuj2KxI0N7pyCeHMih8Qyi8Mmofb811O/exec'; 
+    const googleAppScriptURL = 'https://script.google.com/macros/s/AKfycbznUH5WdLT2nxsraXPycahMlSZXNRP14IysOxvsheuYR8KSO5tONxKkFFUyH3NE79ZZ/exec'; 
 
     fetch(googleAppScriptURL, {
         method: 'POST',
